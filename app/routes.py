@@ -70,6 +70,8 @@ def retrieve():
 
     except:
         return jsonify({ 'error': 'Incorrect Headers' })
+        # https://git.heroku.com/event-sched-backend1738.git
+
 
 @app.route('/api/delete', methods=['GET', 'POST'])
 def delete():
